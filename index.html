@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Transport</h2>
+        <h2>How do you move??</h2>
       </div>
       <form id="trans_survey">
         <div class="form-group">
@@ -21,20 +21,28 @@
           <input type="checkbox" name="work-transport" value="Sleepwalk">Were you awake when you got there?<br>
           <input type="checkbox" name="work-transport" value="Walk">Or did you just walk?<br>
         </div>
+
         <div class="form-group">
           <p> In the past year, have you used the following mode of transportation to travel to a fun activity?</p>
-          <input type="checkbox" name="fun-transport" value="Jump"> Did you jump to work?<br>
-          <input type="checkbox" name="fun-transport" value="Jump"> Did you jump to work?<br>
-          <input type="checkbox" name="fun-transport" value="Jump"> Did you jump to work?<br>
-          <input type="checkbox" name="fun-transport" value="Jump"> Did you jump to work?<br>
-          <input type="checkbox" name="fun-transport" value="Jump"> Did you jump to work?<br>
+          <input type="checkbox" name="fun-transport" value="Jump"> Did you jump to somewhere fun?<br>
+          <input type="checkbox" name="fun-transport" value="Crawl"> Did you crawl to an exciting place?<br>
+          <input type="checkbox" name="fun-transport" value="Bounce"> Did you bounce all the way to a better place?<br>
+          <input type="checkbox" name="fun-transport" value="Jog"> Did you jog to friends?<br>
+          <input type="checkbox" name="fun-transport" value="Uber"> Or did you just call an Uber?<br>
         </div>
 
        <button type="submit">Submit</button>
+
       </form>
+
       <span id="work-answer">
-        <p><b>You used the following methods to get to work:</b></p>
+        <p><b>You used the following methods to get to work!</b></p>
       </span>
+      <br>
+      <span id="fun-answer">
+        <p><b>You used the following methods to get to somewhere fun!</b></p>
+      </span>
+
     </div>
   </body>
 </html>
